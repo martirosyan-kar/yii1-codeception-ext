@@ -8,4 +8,4 @@
 2. Copy the file `_support/Helper/Yii1Ext.php` to the same directory
 3. In test configuration files (`functional.suite.yml`, `unit.suite.yml`) replace the `- Yii1` module to `- \Helper\Yii1Ext:` and keep all the configurations. 
 
-*Use the files in this repositary as an examples*
+*Use the files in this repository as an examples*

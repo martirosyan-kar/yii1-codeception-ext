@@ -1,0 +1,12 @@
+# Codeception Test Suite Configuration
+
+# suite for unit (internal) tests.
+class_name: UnitTester
+modules:
+    enabled: 
+        - \Helper\Yii1Ext
+    config:
+        \Helper\Yii1Ext:
+            appPath: 'www/test.php'
+            url: 'http://localhost/test.php'
+            part: init

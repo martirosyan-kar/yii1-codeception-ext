@@ -1,0 +1,12 @@
+class_name: FunctionalTester
+modules:
+    enabled:
+        - \Helper\Yii1Ext:
+            appPath: 'www/test.php'
+            url: 'http://localhost/test.php'
+            part: init
+        - PhpBrowser:
+            url: 'http://localhost/'
+        - REST:
+            depends: PhpBrowser
+        - \Helper\Functional
